@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin:0;
+}
+#header{
+    background-image: url("../img/banner.jpg");
+    height: 80vh;
+    background-size:cover;
+    background-position:center;
+}
+.logo1{
+    position: fixed;
+    padding-top: 30px;
+}
+.navbar-nav li a{
+    color: #fff;
+    font-size: 14px;
+}
+.menu{
+    position: fixed;
+    right: 20px;
+    z-index: 100;
+    padding-top: 30px;
+}
+.navbar-brand img{
+    width: 150px;
+    margin-left: 50px;
+}
+.menu #navbarNav{
+    position: absolute
+
+}
+.navbar-toggler{
+    border: none!important;
+    outline: none!important;
+}
+/*-----------------Welcome text ---------*/
+.welcome{
+    text-align: center;
+    padding: 50px 100px;
+    margin-top: -140px;
+    background:radial-gradient(#fff,#ffd6d6);
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2); 
+}
+.welcome .btn{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    background-color:#ff523b;
+    
+}
+/*--------------About section----------*/
+#about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about h3{
+    margin: 20px auto;
+}
+/*------------------Service----------*/
+#service{
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.p1{
+    width: 80%;
+}
+#services .col1 h4{
+    padding: 5px;
+}
+#services .col1 img{
+    width: 50px;
+}
+#services .col1 p{
+    padding: 10px;
+    text-align:left; 
+    font-size: medium;   
+}
+/*------------------------Features-----------------*/
+#features{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/feature-background.jpg);
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+#features .col1{
+    padding: 20px;
+}
+.feaature-box{
+    height: 120px;
+}
+.feaature-box .feaature-left{
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+.feaature-box .feaature-left .fa{
+    padding-top: 13px;
+    font-size: 50px;
+}
+.feaature-box .feaature-right{
+    height: 120px;
+    width: 80%;
+    float: left;
+}
+.feaature-box .feaature-right h4{
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+.feaature-box .feaature-right p{
+    padding-left: 15px;
+    text-align: left;
+}
+/*--------------------Testimonial-----------*/
+#testimonial{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#testimonial .col1{
+    padding: 30px 25px;
+    text-align: center;
+}
+#testimonial img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: -150px;
+    margin-top: -40px;
+    border: 5px solid #fff;
+    margin-bottom: 30px;
+}
+.review{
+    font-size: 14px;
+    box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+    border-radius: 10px;
+
+}
+.review .fa-twitter{
+    color: #013f7e;
+}
+#testimonial span{
+    color: #013f7e;
+    font-weight: 500;
+    font-size: 18px;
+}
+/*--------------------Subscribe-----------*/
+.sub{
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.sub h3,.sub p{
+    color: #fff;
+}
+.sub .input-group{
+    border-radius: 30px;
+    background: #fff;
+    max-width: 550px;
+    margin: 10px auto;
+    padding: 5px;
+}
+.sub .form-control{
+    border: none;
+    background: transparent;
+
+}
+.sub .form-control:focus{
+    box-shadow: none;
+    background: transparent;
+    
+}
+.sub .input-group-append{
+    background-image: linear-gradient(to right,#1c03b5, #5c8bef);
+    border-radius: 30px;
+}
+.sub .input-group-text{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+/*--------------------footer----------------*/
+#footer{
+    margin-top: 80px;
+    padding: 100px;
+    background-color:#efefef;
+    color: #013f7e;
+}
+.logo{
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#footer p{
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+#footer .fa{
+    padding-right: 10px;
+    font-size: 15px;
+}
+#footer hr{
+    margin-top: 10px;
+}
+#footer .col3{
+    padding: 30px 40px;
+}
+#footer .copyright{
+    text-align: center;
+}
